@@ -1,4 +1,4 @@
-/* css/styles.css of breaking-news for news.bauska.org */
+/* css/styles.css of Breaking-News for news.bauska.org */
 /* HUD based on http://cloudfront.mediamatters.org/static/uploader/image/2016/04/22/ChrisWallaceMacCallum.jpg */
 /* Depends on length of ticker text */
 body {
@@ -45,14 +45,12 @@ p {
   perspective-origin: 50% 100px;
   width: 110px;
 }
-
 .box-top {
   background: radial-gradient(80px 70px, #004 60%, transparent 61%, transparent);
   font-size: 24pt;
   line-height: 0.9em;
   height: 80px;
 }
-
 .box-bttm {
   font-size: 18pt;
   font-weight: bold;
@@ -69,7 +67,6 @@ p {
   width: 110px;
   transform-style: preserve-3d;
 }
-
 .cube div {
   position: absolute;
   width: 110px;
@@ -87,7 +84,6 @@ p {
 .box-top .cube svg {
   transform: translateY(-15px);
 }
-
 .box-bttm .cube {
   animation: spin 15s cubic-bezier(0.25, 1, 0.45, 1) infinite;
   text-shadow: 0 0 4px #000;
@@ -100,17 +96,14 @@ p {
 .back {
   transform: translateZ(-55px) rotateY(180deg);
 }
-
 .right {
   transform: rotateY(-270deg) translateX(55px);
   transform-origin: top right;
 }
-
 .left {
   transform: rotateY(270deg) translateX(-55px);
   transform-origin: center left;
 }
-
 .front {
   transform: translateZ(55px);
 }
@@ -252,7 +245,6 @@ p {
   .logo-area {
     width: 20%;
   }
-
   .cur-event {
     width: 80%;
   }
@@ -261,7 +253,6 @@ p {
   .logo-area {
     width: 25%;
   }
-
   .cur-event {
     width: 75%;
   }
