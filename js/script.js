@@ -1,5 +1,4 @@
-/* ./js/script/js - JavaScript for the clock only */
-
+/* ./js/script/js of Breaking-News for news.bauska.org */
 function updateTime() {
   var dateInfo = new Date();
 
